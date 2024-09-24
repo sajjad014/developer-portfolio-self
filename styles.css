@@ -138,6 +138,118 @@ main {
 }
 
 
+/* skill container */
+
+#what-i-do {
+    padding: 30px 150px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+#skill-container {
+    margin-top: 30px;
+    ;
+}
+
+.skill {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px;
+}
+
+.html-icon {
+    width: 80px;
+}
+
+.css-icon {
+    width: 80px;
+}
+
+.github-icon {
+    width: 80px;
+}
+
+.js-icon {
+    width: 80px;
+}
+
+.nextjs-icon {
+    width: 80px;
+}
+
+
+/* resume-container */
+
+.resume-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.resume {
+    margin-top: 70px;
+}
+
+.resume-container hr {
+    margin: 30px;
+}
+
+.resume-item-institute,
+.resume-description {
+    color: #757575;
+}
+
+.resume-item-institute {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.experience-item {
+    margin-bottom: 65px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-cv {
+    background-color: #FD6E0A;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.a-cv {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* footer section */
+
+footer {
+    display: flex;
+    margin-top: 100px;
+    background: #FFF8F3;
+    padding: 120px 200px;
+}
+
+
 /* Responsive Design */
 
 @media (max-width: 768px) {
