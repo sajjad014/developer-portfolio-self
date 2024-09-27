@@ -247,6 +247,24 @@ footer {
     margin-top: 100px;
     background: #FFF8F3;
     padding: 120px 200px;
+    gap: 50px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
 }
 
 
